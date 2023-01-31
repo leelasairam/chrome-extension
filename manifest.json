@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Block Social Websites",
+  "description": "An extension that used to block the social media apps like facebook, instagram, youtube and etc",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Content.js"]
+    }
+  ]
+}
